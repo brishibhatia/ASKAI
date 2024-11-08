@@ -1,10 +1,11 @@
 import React from "react";
-import sidebar from "./components/sidebar/sidebar";
+import Sidebar from "./components/sidebar/sidebar";
 
-export const App = () => {
+const App = () => {
   return (
     <>
-      <sidebar />
+      <Sidebar />
     </>
   );
 };
+export default App;
